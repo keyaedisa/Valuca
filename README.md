@@ -1,2 +1,2 @@
-# valenOhMyZshSetup
+# valenOhMyZshTheme
 valen's zsh theme
