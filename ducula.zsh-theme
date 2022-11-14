@@ -6,10 +6,10 @@ typeset -A user_abbrev
 source ${ZSH_CUSTOM}/themes/Ducula/abbrevs.zsh
 
 # @host
-local host_name="%{$fg[white]%}@${host_abbrev[$HOST]:-$HOST}%{$reset_color%}"
+local host_name="%{$fg[magenta]%}@${host_abbrev[$HOST]:-$HOST}%{$reset_color%}"
 
 # User colored by priviliges (if not overridden in username abbreviation)
-local user_name="%(!.%{$fg[blue]%}.%{$fg[yellow]%})${user_abbrev[$USER]:-$USER}%{$reset_color%}"
+local user_name="%(!.%{$fg[blue]%}.%{$fg_bold[magenta]%})${user_abbrev[$USER]:-$USER}%{$reset_color%}"
 local path_string="%{$fg[cyan]%}%~"
 local prompt_string="»"
 local time_string="%{$fg[magenta]%}%T"
