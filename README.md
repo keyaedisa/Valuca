@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # valenOhMyZshTheme
 valen's zsh theme
 =======
+=======
+>>>>>>> c1c8010 (init with README.md and first theme draft)
 A zsh-theme inspired by the Dracula project
 ===========================================
 
@@ -21,4 +24,7 @@ Installation
 ------------
 
 git clone git@github:janjoswig/Ducula.git ${ZSH_CUSTOM}/themes/Ducula
+<<<<<<< HEAD
+>>>>>>> c1c8010 (init with README.md and first theme draft)
+=======
 >>>>>>> c1c8010 (init with README.md and first theme draft)
