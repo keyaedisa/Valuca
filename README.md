@@ -1,4 +1,4 @@
-valcula - A zsh-theme inspired by the Ducula theme inspired by the Dracula project
+Valuca - A zsh-theme inspired by the Ducula theme inspired by the Dracula project
 ==================================================================================
 
 Most features are entirely thanks to [janjoswig's ducula theme](https://github.com/janjoswig/Ducula)
