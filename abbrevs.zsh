@@ -73,4 +73,4 @@ host_abbrev=(\
     'qcm08' "%{$fg[yellow]%}с8"\
 )
 
-user_abbrev=('janjoswig' "я")
+user_abbrev=('keyaedisa' "я")

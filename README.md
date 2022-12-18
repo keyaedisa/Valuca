@@ -1,5 +1,8 @@
-Ducula - A zsh-theme inspired by the Dracula project
-====================================================
+valcula - A zsh-theme inspired by the Ducula theme inspired by the Dracula project
+==================================================================================
+
+Most features are entirely thanks to [janjoswig's ducula theme](https://github.com/janjoswig/Ducula)
+I simply added my own touch to an otherwise perfect theme.
 
 Prompt features
 ---------------
@@ -15,7 +18,7 @@ Prompt features
 Example
 -------
 
-![ducula prompt theme](ducula_showcase.png)
+![valuca prompt theme](https://keyaedisa.github.io/images/valcula.png)
 
 
 Installation
@@ -23,16 +26,16 @@ Installation
 
 Clone the repository into your custom oh-my-zsh themes folder:
 
-    git clone git@github.com:keyaedisa/valenOhMyZshTheme.git ${ZSH_CUSTOM}/themes/Ducula
+    git clone git@github.com:keyaedisa/Valuca.git ${ZSH_CUSTOM}/themes/Valuca
 
 Set the theme in your .zshrc:
 
-   ZSH_THEME="Ducula/ducula"
+   ZSH_THEME="Valula/valuca"
 
 Links
 -----
 
-R. Zhao: This blog post (https://rzhao.io/blog/2015/08/26/zsh-prompt/) was the starting point for the theme
+Kept Jan's link because they may provide inside for others too study. Def need the git-prompt plugin though.
 
 The agnoster theme: <https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/agnoster.zsh-theme>
 
@@ -40,4 +43,3 @@ The dieter theme: <https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/dieter.
 
 The git-prompt plugin: <https://github.com/olivierverdier/zsh-git-prompt>
 
-Dracula: I think the theme works best in connection with the Dracula (https://draculatheme.com/) color theme

@@ -3,7 +3,7 @@ typeset -A host_abbrev
 typeset -A user_abbrev
 
 # Defines host_abbrev and user_abbrev
-source ${ZSH_CUSTOM}/themes/Ducula/abbrevs.zsh
+source ${ZSH_CUSTOM}/themes/Valcula/abbrevs.zsh
 
 # @host
 local host_name="%{$fg[magenta]%}@${host_abbrev[$HOST]:-$HOST}%{$reset_color%}"
