@@ -15,15 +15,15 @@ local prompt_string="»"
 local time_string="%{$fg[magenta]%}%T"
 
 # Make prompt_string red if the previous command failed (and change bat to duck).
-local return_status="%(?:%{$fg[blue]%}🦇$prompt_string:%{$fg[red]%}🦆%?$prompt_string)"
+local return_status="%(?:%{$fg[blue]%}🐱$prompt_string:%{$fg[red]%}😿%?$prompt_string)"
 
 # From agnoster theme; Indicate if background jobs are running
 job_status() {
     typeset -a job_running
 
     if [[ $(jobs -l | wc -l) -gt 0 ]]
-    then
-        job_running+="%{%F{cyan}%}☕ "
+    then🐱
+        job_running+="%{%F{cyan}%}🏃"
     # else # maybe too distracting
     #   job_running+="%{%F{cyan}%}⭐ "
     fi
@@ -35,7 +35,7 @@ job_status() {
 ZSH_THEME_GIT_PROMPT_PREFIX="" # "("
 ZSH_THEME_GIT_PROMPT_SUFFIX="" # ")"
 ZSH_THEME_GIT_PROMPT_SEPARATOR="|"
-ZSH_THEME_GIT_PROMPT_BRANCH=" %{$fg_bold[magenta]%}"
+ZSH_THEME_GIT_PROMPT_BRANCH="🎄%{$fg_bold[magenta]%}"
 ZSH_THEME_GIT_PROMPT_STAGED="%{$fg[red]%}%{●%G%}"
 ZSH_THEME_GIT_PROMPT_CONFLICTS="%{$fg[red]%}%{✖%G%}"
 ZSH_THEME_GIT_PROMPT_CHANGED="%{$fg[blue]%}%{✚%G%}"
