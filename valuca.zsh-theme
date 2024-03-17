@@ -3,7 +3,7 @@ typeset -A host_abbrev
 typeset -A user_abbrev
 
 # Defines host_abbrev and user_abbrev
-source ${ZSH_CUSTOM}/themes/Valcula/abbrevs.zsh
+source ${ZSH_CUSTOM}/themes/Valuca/abbrevs.zsh
 
 # @host
 local host_name="%{$fg[magenta]%}@${host_abbrev[$HOST]:-$HOST}%{$reset_color%}"
@@ -22,7 +22,7 @@ job_status() {
     typeset -a job_running
 
     if [[ $(jobs -l | wc -l) -gt 0 ]]
-    then🐱
+    then
         job_running+="%{%F{cyan}%}🏃"
     # else # maybe too distracting
     #   job_running+="%{%F{cyan}%}⭐ "
